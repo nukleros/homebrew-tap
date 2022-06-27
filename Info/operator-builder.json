@@ -7,7 +7,7 @@
   "versioned_formulae": [],
   "desc": "A Kubebuilder plugin to accelerate the development of Kubernetes operators.",
   "license": "MIT",
-  "homepage": "https://github.com/vmware-tanzu-labs/operator-builder",
+  "homepage": "https://github.com/nukleros/operator-builder",
   "versions": {
     "stable": "0.6.0",
     "head": null,
@@ -15,7 +15,7 @@
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/vmware-tanzu-labs/operator-builder/releases/download/v0.6.0/operator-builder_v0.6.0_Darwin_x86_64.tar.gz",
+      "url": "https://github.com/nukleros/operator-builder/releases/download/v0.6.0/operator-builder_v0.6.0_Darwin_x86_64.tar.gz",
       "tag": null,
       "revision": null
     }

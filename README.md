@@ -1,10 +1,10 @@
-# Vmware-tanzu-labs Tap
+# Nukleros Tap
 
 ## How do I install these formulae?
 
-`brew install vmware-tanzu-labs/tap/<formula>`
+`brew install nukleros/tap/<formula>`
 
-Or `brew tap vmware-tanzu-labs/tap` and then `brew install <formula>`.
+Or `brew tap nukleros/tap` and then `brew install <formula>`.
 
 ## Documentation
 
