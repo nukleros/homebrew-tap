@@ -5,7 +5,7 @@
 class OperatorBuilder < Formula
   desc "A Kubebuilder plugin to accelerate the development of Kubernetes operators."
   homepage "https://github.com/nukleros/operator-builder"
-  version "0.9.0"
+  version "0.10.0"
   license "MIT"
 
   depends_on "kubectl"
@@ -14,8 +14,8 @@ class OperatorBuilder < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/nukleros/operator-builder/releases/download/v0.9.0/operator-builder_v0.9.0_Darwin_arm64.tar.gz"
-      sha256 "cd4be6f34683ba4c119039e2a135ab09aa645a13fa7b417d08e7fe14a140b487"
+      url "https://github.com/nukleros/operator-builder/releases/download/v0.10.0/operator-builder_v0.10.0_Darwin_arm64.tar.gz"
+      sha256 "5e9aa6d7cad8f5071432359975e918c4970a6860cb98a583e586cc2f56580626"
 
       def install
         bin.install "operator-builder"
@@ -25,8 +25,8 @@ class OperatorBuilder < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nukleros/operator-builder/releases/download/v0.9.0/operator-builder_v0.9.0_Darwin_x86_64.tar.gz"
-      sha256 "288e93c159e833a634468bc5df5b0bc8e164bec287d933906254b155950becd8"
+      url "https://github.com/nukleros/operator-builder/releases/download/v0.10.0/operator-builder_v0.10.0_Darwin_x86_64.tar.gz"
+      sha256 "235331ef2df452068aab706d56a04c11f311205723164e92aca709a5e3fd9d94"
 
       def install
         bin.install "operator-builder"
@@ -38,9 +38,9 @@ class OperatorBuilder < Formula
   end
 
   on_linux do
-    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nukleros/operator-builder/releases/download/v0.9.0/operator-builder_v0.9.0_Linux_arm64.tar.gz"
-      sha256 "5c1f2fd51fc7de1ff621b36f81a7a06c153568703d4a836842a138d2ce93600f"
+    if Hardware::CPU.intel?
+      url "https://github.com/nukleros/operator-builder/releases/download/v0.10.0/operator-builder_v0.10.0_Linux_x86_64.tar.gz"
+      sha256 "6a0a7b3f28c3cd1eaf68ceb332ceda5acb897fb6ee9c6887f9b4a3aeeadf166f"
 
       def install
         bin.install "operator-builder"
@@ -49,9 +49,9 @@ class OperatorBuilder < Formula
         fish_completion.install "completions/operator-builder.fish"
       end
     end
-    if Hardware::CPU.intel?
-      url "https://github.com/nukleros/operator-builder/releases/download/v0.9.0/operator-builder_v0.9.0_Linux_x86_64.tar.gz"
-      sha256 "e4740395ed6c1c24405b407b8fc983ff343a47244262b584e0eb69a409f16a73"
+    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
+      url "https://github.com/nukleros/operator-builder/releases/download/v0.10.0/operator-builder_v0.10.0_Linux_arm64.tar.gz"
+      sha256 "f503ca32694eecafc59f773cd475a649ca44b0d3937e0da525f9c94fc0cab8d4"
 
       def install
         bin.install "operator-builder"
