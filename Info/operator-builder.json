@@ -9,16 +9,16 @@
   "license": "MIT",
   "homepage": "https://github.com/nukleros/operator-builder",
   "versions": {
-    "stable": "0.9.0",
+    "stable": "0.10.0",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/nukleros/operator-builder/releases/download/v0.9.0/operator-builder_v0.9.0_Darwin_x86_64.tar.gz",
+      "url": "https://github.com/nukleros/operator-builder/releases/download/v0.10.0/operator-builder_v0.10.0_Darwin_x86_64.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "288e93c159e833a634468bc5df5b0bc8e164bec287d933906254b155950becd8"
+      "checksum": "235331ef2df452068aab706d56a04c11f311205723164e92aca709a5e3fd9d94"
     }
   },
   "revision": 0,
