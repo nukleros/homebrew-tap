@@ -1,25 +1,25 @@
 {
-  "name": "operator-builder",
-  "full_name": "operator-builder",
+  "name": "gener8s",
+  "full_name": "gener8s",
   "tap": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
-  "desc": "A Kubebuilder plugin to accelerate the development of Kubernetes operators.",
+  "desc": "Generate source code for unstructured Kubernetes Go types from yaml manifests.",
   "license": "MIT",
-  "homepage": "https://github.com/nukleros/operator-builder",
+  "homepage": "https://github.com/nukleros/gener8s",
   "versions": {
-    "stable": "0.10.0",
+    "stable": "0.2.0",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/nukleros/operator-builder/releases/download/v0.10.0/operator-builder_v0.10.0_Darwin_arm64.tar.gz",
+      "url": "https://github.com/nukleros/gener8s/releases/download/v0.2.0/gener8s_v0.2.0_darwin_arm64.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "5e9aa6d7cad8f5071432359975e918c4970a6860cb98a583e586cc2f56580626"
+      "checksum": "92698b59d074cc84593da7e1c68d78d2732441f7f1562666a35204ebfefa84c0"
     }
   },
   "revision": 0,
@@ -28,22 +28,12 @@
   "pour_bottle_only_if": null,
   "keg_only": false,
   "keg_only_reason": null,
-  "options": [
-    {
-      "option": "--with-make",
-      "description": "Build with make support"
-    }
-  ],
+  "options": [],
   "build_dependencies": [],
-  "dependencies": [
-    "kubectl",
-    "golang"
-  ],
+  "dependencies": [],
   "test_dependencies": [],
   "recommended_dependencies": [],
-  "optional_dependencies": [
-    "make"
-  ],
+  "optional_dependencies": [],
   "uses_from_macos": [],
   "uses_from_macos_bounds": [],
   "requirements": [],
@@ -66,6 +56,6 @@
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "2ab0a474246950e9a673775e7ca434e694c569338f055538b24d5bef026e5e1d"
+    "sha256": "16e94c7b37e80134c9f4c4875e5ee2778997df81d43498fe9dd221d9b985949b"
   }
 }
