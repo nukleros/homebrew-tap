@@ -9,17 +9,17 @@
   "license": "MIT",
   "homepage": "https://github.com/nukleros/operator-builder",
   "versions": {
-    "stable": "0.10.0",
+    "stable": "0.11.0",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/nukleros/operator-builder/releases/download/v0.10.0/operator-builder_v0.10.0_Darwin_arm64.tar.gz",
+      "url": "https://github.com/nukleros/operator-builder/releases/download/v0.11.0/operator-builder_v0.11.0_darwin_arm64.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "5e9aa6d7cad8f5071432359975e918c4970a6860cb98a583e586cc2f56580626"
+      "checksum": "4cc51898208dc0e820317704bd2731d3e80ca8338d3de9f190e6838cdd84d1bc"
     }
   },
   "revision": 0,
@@ -36,8 +36,8 @@
   ],
   "build_dependencies": [],
   "dependencies": [
-    "kubectl",
-    "golang"
+    "golang",
+    "kubectl"
   ],
   "test_dependencies": [],
   "recommended_dependencies": [],
@@ -66,6 +66,6 @@
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "2ab0a474246950e9a673775e7ca434e694c569338f055538b24d5bef026e5e1d"
+    "sha256": "95fa2d61a90d33d3ff19edc0c410edb3e0c7daf4758f2987963ff4a60ba88210"
   }
 }
