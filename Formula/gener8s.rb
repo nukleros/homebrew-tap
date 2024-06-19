@@ -5,21 +5,21 @@
 class Gener8s < Formula
   desc "Generate source code for unstructured Kubernetes Go types from yaml manifests."
   homepage "https://github.com/nukleros/gener8s"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/nukleros/gener8s/releases/download/v0.2.0/gener8s_v0.2.0_darwin_x86_64.tar.gz"
-      sha256 "de07f64e4b63eff41234815f39e87b3bb7e4d33db5a55571ee85cbd2f21186b9"
+      url "https://github.com/nukleros/gener8s/releases/download/v0.3.0/gener8s_v0.3.0_darwin_x86_64.tar.gz"
+      sha256 "f0c258e4d4f6f4e507ef5da84d8acf05a3bd2ecfcf78a1b152af7c218d504eb2"
 
       def install
         bin.install "gener8s"
       end
     end
     on_arm do
-      url "https://github.com/nukleros/gener8s/releases/download/v0.2.0/gener8s_v0.2.0_darwin_arm64.tar.gz"
-      sha256 "92698b59d074cc84593da7e1c68d78d2732441f7f1562666a35204ebfefa84c0"
+      url "https://github.com/nukleros/gener8s/releases/download/v0.3.0/gener8s_v0.3.0_darwin_arm64.tar.gz"
+      sha256 "d205cfac9af6da7b847b7f9b6c9c209fd748e8e1341aa693cd914b59a5f092b1"
 
       def install
         bin.install "gener8s"
@@ -30,8 +30,8 @@ class Gener8s < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/nukleros/gener8s/releases/download/v0.2.0/gener8s_v0.2.0_linux_x86_64.tar.gz"
-        sha256 "456bffc649a0905731c51830d2b9946fb22fb32c69ccf5b83125f8a85e0e29da"
+        url "https://github.com/nukleros/gener8s/releases/download/v0.3.0/gener8s_v0.3.0_linux_x86_64.tar.gz"
+        sha256 "d78581b7585ce6e721a254d00acf90451b4ba58176420709c3aa732e19bef4b7"
 
         def install
           bin.install "gener8s"
@@ -40,8 +40,8 @@ class Gener8s < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/nukleros/gener8s/releases/download/v0.2.0/gener8s_v0.2.0_linux_arm64.tar.gz"
-        sha256 "8a60b07bede62d4ff131009b690bcc9edfb0d3f9082923fd3a0846ab91468db3"
+        url "https://github.com/nukleros/gener8s/releases/download/v0.3.0/gener8s_v0.3.0_linux_arm64.tar.gz"
+        sha256 "2dc885fa070a497252c5df76d742101fd65d477cffd6b48b4cf75756bb2c3198"
 
         def install
           bin.install "gener8s"
