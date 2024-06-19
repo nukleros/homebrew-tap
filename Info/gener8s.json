@@ -9,17 +9,17 @@
   "license": "MIT",
   "homepage": "https://github.com/nukleros/gener8s",
   "versions": {
-    "stable": "0.2.0",
+    "stable": "0.3.0",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/nukleros/gener8s/releases/download/v0.2.0/gener8s_v0.2.0_darwin_arm64.tar.gz",
+      "url": "https://github.com/nukleros/gener8s/releases/download/v0.3.0/gener8s_v0.3.0_darwin_arm64.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "92698b59d074cc84593da7e1c68d78d2732441f7f1562666a35204ebfefa84c0"
+      "checksum": "d205cfac9af6da7b847b7f9b6c9c209fd748e8e1341aa693cd914b59a5f092b1"
     }
   },
   "revision": 0,
@@ -56,6 +56,6 @@
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "16e94c7b37e80134c9f4c4875e5ee2778997df81d43498fe9dd221d9b985949b"
+    "sha256": "02a2139817f50ecc07d906100a76409cd3fd413fb49b5c830a9bd2fef1ba5b04"
   }
 }
